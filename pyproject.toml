@@ -1,0 +1,22 @@
+[project]
+dependencies = [
+    "langchain-core",
+    "langgraph",
+    "langchain-community",
+    "langchain-openai",
+    "beautifulsoup4",
+    "tavily-python>=0.5.0",
+    "pandas>=2.2.3",
+]
+requires-python = ">=3.11"
+[tool.flake8]
+ignore = [
+    "W293"
+]
+[tool.pdm]
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "ipykernel>=6.29.5",
+    "flake8>=7.1.1",
+]

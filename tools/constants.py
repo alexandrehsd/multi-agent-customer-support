@@ -1,0 +1,1 @@
+DB_PATH = "./database/travel2.sqlite"
